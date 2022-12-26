@@ -1,0 +1,56 @@
+.App {
+    font-family: sans-serif;
+    margin-left: 5px;
+  }
+  
+  body {
+    background-color: #5eead4;
+  }
+  
+  .list-employees {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .employee {
+    padding: 10px;
+    border: 1px solid #0891b2;
+    border-radius: 5px;
+    box-shadow: 5px 5px #0f766e;
+  }
+  
+  button {
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 0px;
+  }
+  
+  button:hover {
+    background-color: #ccfbf1;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .search-bar input {
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  
+  .filter-bar {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+  }
+  
+  .filter-bar h5 {
+    display: block;
+  }
+  
